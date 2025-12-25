@@ -81,7 +81,7 @@ useEffect(() => emailjs.init('NlM1E4Feuz8GWzGkg'), [])
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          XXX.
+          
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -174,7 +174,7 @@ useEffect(() => emailjs.init('NlM1E4Feuz8GWzGkg'), [])
                   name="name"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary"
-                  placeholder="Pirjo..."
+                  placeholder="Irmeli..."
                 />
               </div>
 
@@ -194,7 +194,7 @@ useEffect(() => emailjs.init('NlM1E4Feuz8GWzGkg'), [])
                   name="email"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary"
-                  placeholder="pirjo@gmail.com"
+                  placeholder="irmeli@gmail.com"
                 />
               </div>
 

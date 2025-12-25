@@ -15,7 +15,9 @@ Samuli Paulaharju`,
 
 17: `Kymmeniä vuosia pappi rukka oli asunut Jäämeren kaukaisen kalliosaaren pappilassa ja satoja kertoja sen pienessä kirkossa pauhannut köyhille kalanpyytäjille, monesti kilvoitellen meren pauhujen kanssa. 
 Oli hän kyllä, ennen nuorena ollessaan, monta kertaa pyrkinyt etelään, rikkaammille seuduille, mutta — tännepä piti jäädä Jäämeren kolkoille rannoille, missä talvella viikkokausin asui pimeys, jumalanpäivän näkemätön, niin että lopulta jo tahtoi ihmisrievussa pyrkiä asumaan sisällinenkin pimeys, jumalanpäivän näkemätön sekin. Tänne suureen yksinäisyyteen täytyi jäädä iäkseen, tänne viimein kuollakin, ja täältä, pimeiltä periltä lähteä pimeän haudan lepoon...
-Kunpahan olisikin, pappi raukka, päässyt lepoon.`
+Kunpahan olisikin, pappi raukka, päässyt lepoon.`,
+
+18: `Piirros Lahja-mummostani ensimmäisen lehmänsä kanssa. Tehty Navetta Gallerian historiikkia varten`
 
   // Lisää id:n mukaan
 };
