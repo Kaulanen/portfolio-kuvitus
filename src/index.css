@@ -65,7 +65,7 @@
 
 @layer base {
   :root {
-    --background: 255 40% 98%;
+    --background: 180 40% 95%;
     --foreground: 222 47% 11%;
 
     --card: 0 0% 100%;
@@ -144,16 +144,16 @@
   transition-all duration-300 hover:shadow-[0_0_10px_rgba(139,92,246,0.5)]
   hover:scale-105 active:scale-95;
 }
-
+/* 
 @utility star {
   @apply absolute rounded-full bg-white;
   box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.4);
-}
+} */
 
-@utility meteor {
+/* @utility meteor {
   @apply absolute bg-linear-to-r from-white via-white to-transparent rounded-full;
   box-shadow: 0 0 500px 5px rgba(255, 255, 255, 0.3);
-}
+} */
 
 #root {
   max-width: 100%;
@@ -162,3 +162,15 @@
   text-align: center;
 }
 
+.my-masonry-grid {
+  display: flex;
+  margin-left: -16px; /* gutter size */
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 16px; /* gutter size */
+  background-clip: padding-box;
+}
+html {
+  scroll-behavior: smooth;
+}

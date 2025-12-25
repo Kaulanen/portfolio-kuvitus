@@ -14,21 +14,18 @@ const skills = [
   { name: "Power BI", level: 80, category: "Tiedolla johtaminen" },
   { name: "xx", level: 75, category: "Tiedolla johtaminen" },
 
-  // Ohjelmointi
-  { name: "Python", level: 40, category: "Ohjelmointi" },
-  { name: "CSS", level: 50, category: "Ohjelmointi" },
-  { name: "Figma", level: 70, category: "Ohjelmointi" },
-  { name: "VS Code", level: 65, category: "Ohjelmointi" },
 
   // Muu
   { name: "Photoshop", level: 95, category: "Muu" },
-  { name: "Illustrator", level: 40, category: "Muu" },
+  { name: "Illustrator", level: 30, category: "Muu" },
   { name: "Blender", level: 75, category: "Muu" },
+  { name: "Figma", level: 70, category: "Muu" },
+  { name: "VS Code", level: 65, category: "Muu" },
 
   
 ];
 
-const categories = ["Kaikki", "Tietomalli", "Tiedolla johtaminen", "Ohjelmointi", "Muu"];
+const categories = ["Kaikki", "Tietomalli", "Tiedolla johtaminen", "Muu"];
 
 export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("Kaikki");

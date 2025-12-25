@@ -16,7 +16,7 @@ export const Home = () => {
         <ThemeToggle />
 
         {/* Background Effects */}
-        <StarBackground />
+        {/* <StarBackground /> */}
 
         {/* Navbar */}
         <Navbar />
@@ -24,8 +24,8 @@ export const Home = () => {
         <main>
             <HeroSection />
             <AboutSection />
-            <SkillsSection />
-            <KieletSection />
+            {/* <SkillsSection /> */}
+            {/* <KieletSection /> */}
             <ProjectsSection />
             <ContactSection />
             
